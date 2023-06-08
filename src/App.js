@@ -34,7 +34,7 @@ function App() {
         {!isLoggedIn && <Login onLogin={loginHandler} />}
         {isLoggedIn && <Home onLogout={logoutHandler} />}
       </main>
-      <h1>Test datadog! v3</h1>
+      <h1>Test datadog! v4</h1>
     </React.Fragment>
   );
 }
